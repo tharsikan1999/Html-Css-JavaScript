@@ -1,0 +1,376 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial;
+    list-style: none;
+    text-decoration: none;
+}
+
+body {
+    background: url(bg.jpg);
+    background-position: top 15%,right 25%;
+    background-size: cover;
+}
+
+#header {
+    display: flex;
+    justify-content: space-around;
+    height: 70px;
+    line-height: 70px;
+
+}
+
+.logo {
+    color: #fff;
+    font-size: 30px;
+}
+
+#navbar {
+    display: flex;
+    font-size: 20px;
+    
+}
+#navbar li {
+    padding: 0 20px;
+}
+
+#navbar li a {
+    color: #fff;
+}
+#navbar li a:hover {
+    border-bottom:2px solid rgba(239, 143, 8, 0.952);
+}
+
+#sign {
+    height: 40px;
+    width: 100px;
+    font-size: 20px;
+    color: #fff;
+    background: transparent;
+    border: 2px solid #fff;
+    border-radius: 10px;
+    margin: 13px;
+    cursor: pointer;
+    text-align: center;
+
+}
+
+#sign:hover {
+    background: rgba(74, 73, 73, 0.977);
+    
+}
+
+/* --- 
+
+sign,sign up
+
+--- */
+#signn {
+    top: 0;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%);
+    position: absolute;
+   
+    
+
+}
+
+.sign {
+    height: 400px;
+    width: 300px;
+    background: #fff;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+form {
+    width: 270px;
+    text-align: center;
+}
+
+form h1 {
+    font-size: 25px;
+    margin: 20px 0 10px 0;
+
+}
+form input {
+    height: 40px;
+    border: none;
+    outline: none;
+    margin: 0 0 10px 0;
+}
+
+.remeber-forgot {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 15px;
+
+}
+.email {
+    text-align: left;
+    border-bottom: 1px solid gray;
+
+}
+.password {
+    text-align: left;
+    border-bottom: 1px solid gray;
+    position: relative;
+}
+.tick-text {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5px;
+    
+}
+.tick-text label{
+    cursor: pointer;
+    
+}
+.tick-text input {
+    margin: 3px 5px 5px 5px;
+    cursor: pointer;
+}
+
+#forgot {
+    color: rgb(122, 18, 233);
+    
+}
+#forgot:hover {
+    border-bottom:2px solid rgb(122, 18, 233);
+}
+#ticky {
+    height: 18px;
+    width: 18px;
+    margin: 0 3px;
+    border: 2px solid black;
+    cursor: pointer;
+    
+}
+
+#ticky .fa-check {
+    display: none;
+}
+
+
+
+
+.tick-text {
+   
+}
+#login-now {
+    width: 100%;
+    height: 40px;
+    border-radius: 10px;
+    background:rgb(122, 18, 233);
+    margin: 20px 0;
+    font-size: 20px;
+    color: #fff;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+form span {
+    color:rgb(122, 18, 233) ;
+}
+
+.fa-envelope {
+    color: rgb(122, 18, 233);
+}
+
+.fa-lock {
+    color: rgb(122, 18, 233);
+
+}
+
+.fa-eye {
+    color: rgb(122, 18, 233);
+    position: absolute;
+    right: 0;
+    top: 15px;
+    cursor: pointer;
+    
+}
+
+.fa-eye-slash {
+    color: rgb(122, 18, 233);
+    position: absolute;
+    right: 0;
+    top: 15px;
+    cursor: pointer;
+
+}
+
+
+/* --
+
+sign up
+
+--- */
+
+
+
+.sign1 {
+    height: 400px;
+    width: 300px;
+    background: #fff;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+form {
+    width: 270px;
+    text-align: center;
+}
+
+form h1 {
+    font-size: 25px;
+    margin: 20px 0 10px 0;
+
+}
+form input {
+    height: 40px;
+    border: none;
+    outline: none;
+    margin: 0 0 10px 0;
+}
+
+.remeber-forgot1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 15px;
+
+}
+.email1 {
+    text-align: left;
+    border-bottom: 1px solid gray;
+
+}
+.password1 {
+    text-align: left;
+    border-bottom: 1px solid gray;
+    position: relative;
+}
+.tick-text1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+}
+
+.tick-text1 input {
+    margin: 3px 5px 5px 5px;
+    cursor: pointer;
+}
+#forgot1 {
+    color: rgb(122, 18, 233);
+    
+}
+#forgot1:hover {
+    border-bottom:2px solid rgb(122, 18, 233);
+}
+#ticky1 {
+    height: 18px;
+    width: 18px;
+    margin: 0 3px;
+    border: 2px solid black;
+    cursor: pointer;
+    
+}
+
+#ticky1 .fa-check {
+    display: none;
+}
+
+
+
+
+.tick-text1 {
+   
+}
+#login-now1 {
+    width: 100%;
+    height: 40px;
+    border-radius: 10px;
+    background:rgb(122, 18, 233);
+    margin: 20px 0;
+    font-size: 20px;
+    color: #fff;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+form span {
+    color:rgb(122, 18, 233) ;
+}
+
+.fa-envelope {
+    color: rgb(122, 18, 233);
+}
+
+.fa-lock {
+    color: rgb(122, 18, 233);
+
+}
+
+.fa-eye {
+    color: rgb(122, 18, 233);
+    position: absolute;
+    right: 0;
+    top: 15px;
+    cursor: pointer;
+    
+}
+
+.fa-eye-slash {
+    color: rgb(122, 18, 233);
+    position: absolute;
+    right: 0;
+    top: 15px;
+    cursor: pointer;
+
+}
+#signn {
+    display: none;
+}
+
+#sign-in-box1 {
+    display: none;
+    position: relative;
+
+}
+
+#signup-box {
+    display: none;
+    position: relative;
+}
+
+#signup-box .fa-times {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    cursor: pointer;
+}
+
+#sign-in-box1 .fa-times {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    cursor: pointer;
+}

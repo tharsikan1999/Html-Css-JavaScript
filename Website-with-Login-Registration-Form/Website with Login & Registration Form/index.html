@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <section id="header">
+        <a class="logo" href="index.html">CodingLab</a>
+        <ul id="navbar">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#">about</a></li>
+            <li><a href="#">contact</a></li>
+            <li><a href="#">Blog</a></li>
+        </ul>
+        <button id="sign">Sign</button>
+    </section>
+    <section id="signn">
+        <div class="sign" id="signup-box">
+            <i class="fas fa-times"></i>
+            <form action="">
+                <h1>Login</h1>
+                <div class="email">
+                    <i class="fa-solid fa-envelope"></i>
+                    <input  type="email" placeholder="Enter Your Email">
+                    
+                </div>
+                <div class="password">
+                    <i class="fa-solid fa-lock"></i>
+                    <input id="inputs"  type="password" placeholder="Enter Your password">
+                   
+                    
+                    <i id="see" class="fas fa-eye-slash" ></i>
+                    <i id="hide" class="fa-solid fa-eye" onclick="test()"></i>
+                </div>
+                <div class="remeber-forgot">
+                    <div class="tick-text">
+                        
+                        <input type="checkbox" id="remeber">
+                        <label for="remeber">Remeber me</label>
+    
+                    </div>
+                    <a id="forgot" href="#">Forgot password?</a>
+                </div>
+                <button id="login-now">
+                    Login Now
+                </button>
+                <p id="loginn" >Don't Have Account? <a href="#"><span>SignUp</span></a></p>
+            </form>
+            
+        </div>
+        <div class="sign1" id="sign-in-box1">
+            <i class="fas fa-times"></i>
+            <form action="">
+                <h1>Sign Up</h1>
+                <div class="email1">
+                    <i class="fa-solid fa-envelope"></i>
+                    <input  type="email" placeholder="Enter Your Email">
+                    
+                </div>
+                <div class="password1">
+                    <i class="fa-solid fa-lock"></i>
+                    <input id="inputs1"  type="password" placeholder="Enter Your password">
+                   
+                    
+                    <i id="see1" class="fas fa-eye-slash" ></i>
+                    <i id="hide1" class="fa-solid fa-eye" onclick="test1()"></i>
+                </div>
+                <div class="password1">
+                    <i class="fa-solid fa-lock"></i>
+                    <input id="inputs2"  type="password" placeholder="Enter Your password">
+                   
+                    
+                    <i id="see2" class="fas fa-eye-slash" ></i>
+                    <i id="hide2" class="fa-solid fa-eye" onclick="test2()"></i>
+                </div>
+                
+                <button id="login-now1" onclick="signupp()">
+                    Sign Up Now
+                </button>
+                <p id="sigup1" >Dou you have Have Account? <a href="#"><span>Login</span></a></p>
+            </form>
+            
+        </div>
+       
+    </section>
+    
+    <script src="app.js"></script>
+</body>
+</html>
